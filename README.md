@@ -53,8 +53,7 @@ Everything else in this repository is the working paper behind it.
     ├── build_databook.py
     ├── build_opmodel.py
     ├── build_nav.py
-    ├── build_comps.py
-    └── make_pdf.py
+    └── build_comps.py
 ```
 
 Every Excel workbook is **generated from code**, not built by hand. Rerunning a build script reproduces the workbook exactly, which makes the models auditable and version-controllable.
